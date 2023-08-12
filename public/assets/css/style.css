@@ -1,0 +1,127 @@
+body {
+  background-color: #f5f5f5;
+}
+.action {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-completed {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+.action-edit {
+  background-color: rgba(23, 162, 184, 0.2);
+}
+.action-delete {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+.title-todos {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.title-todos:hover {
+  color: #000 !important;
+  transform: translateX(2px);
+  transition: all linear 0.125s;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.dropdown-content li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.center-line {
+  line-height: 31px;
+}
+
+.text-admin {
+  color: #00aef3;
+}
+
+.nav-info {
+  background: linear-gradient(135deg, #8e59f6, #7634fa);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  height: 62px;
+  text-shadow: 0 1px 1px #ffff;
+}
+.link-item {
+  width: 42px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-nav {
+  background-color: #8e59f6;
+  color: #fff;
+}
+.active-nav:hover {
+  background-color: #8e59f6;
+  color: #fff;
+}
+
+.clamp-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1; /* Số dòng giới hạn */
+  line-clamp: 1; /* Số dòng giới hạn cho các trình duyệt mới hơn */
+  text-decoration: none;
+  color: #3a3434;
+}
+.clamp-text-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Số dòng giới hạn */
+  line-clamp: 2; /* Số dòng giới hạn cho các trình duyệt mới hơn */
+  text-decoration: none;
+  font-size: 18px;
+}
+.clamp-text-2:hover {
+  color: #3c344d !important;
+  cursor: pointer;
+}
+.clamp-text:hover {
+  color: #000000;
+}
+#cke_editor_admin {
+  width: 100%;
+}
